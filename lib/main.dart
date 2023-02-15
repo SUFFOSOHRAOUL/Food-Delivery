@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'Presentation/onbaording2.dart';
+import 'Presentation/onbaording3.dart';
 import 'constants.dart';
 
 void main() {
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const GetMaterialApp(
       title: "food delivey",
-      home: const OnboardingScreen2(),
+      home: onboardingscreen3(),
     );
   }
 }
