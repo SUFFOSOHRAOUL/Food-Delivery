@@ -27,8 +27,8 @@ class CustomTextField extends StatelessWidget {
       decoration: BoxDecoration(
         boxShadow: [
           BoxShadow(
-            color: Colors.grey.shade300.withOpacity(0.5),
-            blurRadius: 4,
+            color: Colors.grey.shade300.withOpacity(0.4),
+            blurRadius: 20,
           )
         ],
         borderRadius: BorderRadius.circular(15),
@@ -47,13 +47,13 @@ class CustomTextField extends StatelessWidget {
               border: InputBorder.none,
               focusedBorder: OutlineInputBorder(
                 borderRadius: BorderRadius.circular(15),
-                borderSide: BorderSide(color: Colors.white),
+                borderSide: const BorderSide(color: Colors.white),
               ),
               enabledBorder: OutlineInputBorder(
                 borderRadius: BorderRadius.circular(15),
-                borderSide: BorderSide(color: Colors.white),
+                borderSide: const BorderSide(color: Colors.white),
               ),
-              errorBorder: OutlineInputBorder(
+              errorBorder: const OutlineInputBorder(
                 borderSide: BorderSide(color: Colors.red),
               ),
               disabledBorder: InputBorder.none,
@@ -62,7 +62,7 @@ class CustomTextField extends StatelessWidget {
                 vertical: 20,
               ),
               hintText: hintText,
-              hintStyle: TextStyle(color: Colors.grey)),
+              hintStyle: TextStyle(color: Colors.grey.withOpacity(0.6))),
         ),
       ),
     );
