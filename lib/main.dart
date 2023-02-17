@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-import 'Presentation/onbaording3.dart';
+import 'Presentation/loginscreen.dart';
 import 'constants.dart';
 
 void main() {
@@ -13,9 +12,10 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return const GetMaterialApp(
+    return const MaterialApp(
+      //debugShowCheckedModeBanner: false,
       title: "food delivey",
-      home: onboardingscreen3(),
+      home: LoginScreen(),
     );
   }
 }

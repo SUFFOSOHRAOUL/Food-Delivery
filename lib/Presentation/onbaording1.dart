@@ -18,7 +18,7 @@ class _OnboardingScreen1State extends State<OnboardingScreen1> {
               height: MediaQuery.of(context).size.height,
               width: MediaQuery.of(context).size.width,
               child: Image.asset(
-                "assets/Images/onbording_screen1.png",
+                "assets/Images/screen1.png",
                 fit: BoxFit.fitWidth,
               )),
           Center(
